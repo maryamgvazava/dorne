@@ -91,7 +91,7 @@
 
 .section1 {
   width: 100%;
-  background-image: url(/styles/images/section1.webp);
+  background-image: url(styles/images/section1.webp);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -396,7 +396,7 @@
 }
 
 .section3 .newyork {
-  background-image: url(/styles/images/section3img/newyork.webp);
+  background-image: url(styles/images/section3img/newyork.webp);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -426,7 +426,7 @@
 }
 
 .section3 .locations .barcelona {
-  background-image: url(/styles/images/section3img/barcelona.webp);
+  background-image: url(styles/images/section3img/barcelona.webp);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -437,7 +437,7 @@
 }
 
 .section3 .locations .paris {
-  background-image: url(/styles/images/section3img/paris.webp);
+  background-image: url(styles/images/section3img/paris.webp);
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -679,7 +679,7 @@
 }
 
 .section6 {
-  background-image: url(/styles/images/section6img/backgroundimg.webp);
+  background-image: url(styles/images/section6img/backgroundimg.webp);
   background-repeat: repeat;
   -ms-flex-line-pack: center;
       align-content: center;
