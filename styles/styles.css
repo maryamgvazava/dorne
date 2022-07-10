@@ -1,0 +1,850 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navbar .divcont {
+  margin: 40px;
+}
+
+.navbar .divcont .navbar-brand {
+  margin: 0 100px 0 0;
+}
+
+.navbar .divcont .toggleicon {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.navbar .divcont .toggleicon .toggler-icon {
+  color: #fff;
+}
+
+.navbar .divcont .toggleicon .toggler-icon .menuimg {
+  color: white;
+  width: 100%;
+}
+
+.navbar .divcont .collapse ul.navbar-nav li.nav-item {
+  margin: 0 20px;
+}
+
+.navbar .divcont .collapse ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.navbar .divcont .collapse ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #7643ea;
+}
+
+.navbar .divcont .collapse ul.navbar-nav li.nav-item a.nav-link .dropdown {
+  background-color: #7643ea;
+}
+
+.navbar .divcont .collapse ul.navbar-nav li.nav-item a.nav-link .dropdown .dropdown-item:hover {
+  background-color: #7643ea;
+}
+
+.navbar .divcont .form-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: white !important;
+  font-weight: bolder;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .divcont .form-inline .fa-search {
+  color: white;
+}
+
+.navbar .divcont .form-inline .formstyle {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.navbar .divcont .form-inline .btn {
+  background-color: #7643ea !important;
+  border: none;
+  margin-left: 20px;
+  width: 180px;
+  height: 52px;
+  color: white;
+  font-weight: bold;
+}
+
+.section1 {
+  width: 100%;
+  background-image: url(/styles/images/section1.webp);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 120px;
+}
+
+.section1 .social {
+  position: absolute;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-right: 1500px;
+  margin-top: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1 .social .socialpoint {
+  width: 250px;
+  height: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.section1 .social .simpleline {
+  width: 100px;
+  color: #fff;
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1 .social .sociallinks .linkers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.section1 .social .sociallinks .linkers .icon {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin: 20px;
+  color: white;
+}
+
+.section1 .infosec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: flex-end;
+          flex-direction: flex-end;
+}
+
+.section1 .infosec .titleh1 {
+  width: 100%;
+  font-size: 72px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.section1 .infosec .infocomment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.section1 .infosec .subtitleh4 {
+  color: white;
+}
+
+.section1 .infosec form.select .topbutton .places, .section1 .infosec form.select .topbutton .events {
+  background-color: #7643ea;
+  margin: 0;
+  border: none;
+  min-width: 100px;
+  height: 44px;
+  line-height: 44px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.section1 .infosec form.select .topbutton .events {
+  background-color: #7643ea;
+  margin: 0%;
+  border: none;
+}
+
+.section1 .infosec form.select .inputsec {
+  background-color: #7643ea;
+  opacity: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section1 .infosec .lookingfor {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section1 .infosec .destination, .section1 .infosec .categories, .section1 .infosec .range {
+  height: 52px;
+  border-radius: 0px;
+  padding: 0px 80px 0px 40px;
+  color: #72728c;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  margin-right: 10px;
+}
+
+.section1 .infosec .searchbtn .search1 {
+  width: 180px;
+  height: 52px;
+  background-color: #7643ea;
+  color: white;
+  font-weight: bold;
+  border-color: #7643ea;
+}
+
+.catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -100px;
+}
+
+.catalog .catalog1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.catalog .catalog1 .box {
+  padding: 30px 45px;
+  background-color: #7643ea;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+  color: white;
+  font-weight: bold;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sec1comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px;
+}
+
+.sec1comment .sec11comment {
+  width: 70%;
+}
+
+.sec1comment .headcomment {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sec1comment .headcomment .dornecomment {
+  color: #7643ea;
+  width: 100%;
+}
+
+.sec1comment .headcomment p.minicomment {
+  font-size: 18px;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.section3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(10, 10, 30, 0.87))), url(/styles/images/section3img/section3.webp);
+  background-image: linear-gradient(to bottom, rgba(10, 10, 30, 0.87)), url(/styles/images/section3img/section3.webp);
+  background-size: cover;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  height: 100vh;
+}
+
+.section3 .newyork, .section3 .barcelona, .section3 .paris {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 30px;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.section3 .newyork {
+  background-image: url(/styles/images/section3img/newyork.webp);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100%;
+}
+
+.section3 .locations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 10px;
+  height: 100%;
+}
+
+.section3 .locations .barcelona {
+  background-image: url(/styles/images/section3img/barcelona.webp);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.section3 .locations .paris {
+  background-image: url(/styles/images/section3img/paris.webp);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section3 .city, .section3 .amount, .section3 .add {
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.section3 .city {
+  background-color: #7643ea;
+  width: 180px;
+  height: 70px;
+}
+
+.section3 .amount {
+  background-color: #2a2a2a;
+  width: 190px;
+  height: 70px;
+}
+
+.section3 .addlocation {
+  width: 100%;
+}
+
+.section3 .addlocation .add {
+  background-color: #30c0a3;
+  height: 70px;
+  width: 70px;
+  font-size: 25px;
+}
+
+.section4, .section5, .section6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 100px 0;
+}
+
+.section4 .destinations, .section4 .restaurants1, .section5 .destinations, .section5 .restaurants1, .section6 .destinations, .section6 .restaurants1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 100px;
+}
+
+.section4 .destinations, .section5 .destinations, .section6 .destinations {
+  text-align: center;
+}
+
+.section4 .cardsec, .section5 .cardsec, .section6 .cardsec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.section4 .cardsec .citydata, .section4 .cardsec .citydata1, .section5 .cardsec .citydata, .section5 .cardsec .citydata1, .section6 .cardsec .citydata, .section6 .cardsec .citydata1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: none;
+  margin: 15px 0;
+}
+
+.section4 .cardsec .citydata:hover .cardmainsec, .section4 .cardsec .citydata1:hover .cardmainsec, .section5 .cardsec .citydata:hover .cardmainsec, .section5 .cardsec .citydata1:hover .cardmainsec, .section6 .cardsec .citydata:hover .cardmainsec, .section6 .cardsec .citydata1:hover .cardmainsec {
+  background-color: #7643ea;
+  color: white;
+}
+
+.section4 .cardsec .citydata:hover .btn2, .section4 .cardsec .citydata1:hover .btn2, .section5 .cardsec .citydata:hover .btn2, .section5 .cardsec .citydata1:hover .btn2, .section6 .cardsec .citydata:hover .btn2, .section6 .cardsec .citydata1:hover .btn2 {
+  background-color: #20c997;
+}
+
+.section4 .cardsec .citydata:hover .card-text, .section4 .cardsec .citydata1:hover .card-text, .section5 .cardsec .citydata:hover .card-text, .section5 .cardsec .citydata1:hover .card-text, .section6 .cardsec .citydata:hover .card-text, .section6 .cardsec .citydata1:hover .card-text {
+  color: white !important;
+}
+
+.section4 .cardsec .citydata:hover .cityheart, .section4 .cardsec .citydata1:hover .cityheart, .section5 .cardsec .citydata:hover .cityheart, .section5 .cardsec .citydata1:hover .cityheart, .section6 .cardsec .citydata:hover .cityheart, .section6 .cardsec .citydata1:hover .cityheart {
+  color: white;
+}
+
+.section4 .cardsec .citydata:hover .restinfo, .section4 .cardsec .citydata1:hover .restinfo, .section5 .cardsec .citydata:hover .restinfo, .section5 .cardsec .citydata1:hover .restinfo, .section6 .cardsec .citydata:hover .restinfo, .section6 .cardsec .citydata1:hover .restinfo {
+  background-color: #7643ea;
+}
+
+.section4 .cardsec .citydata:hover .concertloc, .section4 .cardsec .citydata1:hover .concertloc, .section5 .cardsec .citydata:hover .concertloc, .section5 .cardsec .citydata1:hover .concertloc, .section6 .cardsec .citydata:hover .concertloc, .section6 .cardsec .citydata1:hover .concertloc {
+  color: #fff;
+}
+
+.section4 .cardsec .citydata:hover .textcomment, .section4 .cardsec .citydata1:hover .textcomment, .section5 .cardsec .citydata:hover .textcomment, .section5 .cardsec .citydata1:hover .textcomment, .section6 .cardsec .citydata:hover .textcomment, .section6 .cardsec .citydata1:hover .textcomment {
+  color: white !important;
+}
+
+.section4 .cardsec .citydata:hover .concertstyle, .section4 .cardsec .citydata1:hover .concertstyle, .section5 .cardsec .citydata:hover .concertstyle, .section5 .cardsec .citydata1:hover .concertstyle, .section6 .cardsec .citydata:hover .concertstyle, .section6 .cardsec .citydata1:hover .concertstyle {
+  color: white;
+}
+
+.section4 .cardsec .citydata .btn, .section4 .cardsec .citydata1 .btn, .section5 .cardsec .citydata .btn, .section5 .cardsec .citydata1 .btn, .section6 .cardsec .citydata .btn, .section6 .cardsec .citydata1 .btn {
+  width: 160px;
+  background: #7643ea;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7643ea), to(#7643ea));
+  background-image: linear-gradient(to bottom, #7643ea, #7643ea);
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  margin: 20px;
+  border: solid #7643ea 0px;
+  text-decoration: none;
+  position: absolute;
+}
+
+.section4 .cardsec .citydata .cardmainsec, .section4 .cardsec .citydata1 .cardmainsec, .section5 .cardsec .citydata .cardmainsec, .section5 .cardsec .citydata1 .cardmainsec, .section6 .cardsec .citydata .cardmainsec, .section6 .cardsec .citydata1 .cardmainsec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f4f6f8;
+  padding: 30px;
+}
+
+.section4 .cardsec .citydata .cardmainsec .card-text, .section4 .cardsec .citydata1 .cardmainsec .card-text, .section5 .cardsec .citydata .cardmainsec .card-text, .section5 .cardsec .citydata1 .cardmainsec .card-text, .section6 .cardsec .citydata .cardmainsec .card-text, .section6 .cardsec .citydata1 .cardmainsec .card-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section4 .cardsec .citydata .cardmainsec .cityinfo, .section4 .cardsec .citydata1 .cardmainsec .cityinfo, .section5 .cardsec .citydata .cardmainsec .cityinfo, .section5 .cardsec .citydata1 .cardmainsec .cityinfo, .section6 .cardsec .citydata .cardmainsec .cityinfo, .section6 .cardsec .citydata1 .cardmainsec .cityinfo {
+  width: 316px;
+  height: 358px;
+}
+
+.section4 .cardsec .citydata .cardmainsec .cityloc, .section4 .cardsec .citydata1 .cardmainsec .cityloc, .section5 .cardsec .citydata .cardmainsec .cityloc, .section5 .cardsec .citydata1 .cardmainsec .cityloc, .section6 .cardsec .citydata .cardmainsec .cityloc, .section6 .cardsec .citydata1 .cardmainsec .cityloc {
+  width: 100%;
+  padding: 40px 30px;
+  background-color: #f4f6f8;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section4 .cardsec .citydata .cardmainsec .cityheart, .section4 .cardsec .citydata1 .cardmainsec .cityheart, .section5 .cardsec .citydata .cardmainsec .cityheart, .section5 .cardsec .citydata1 .cardmainsec .cityheart, .section6 .cardsec .citydata .cardmainsec .cityheart, .section6 .cardsec .citydata1 .cardmainsec .cityheart {
+  color: #7643ea;
+  font-size: 30px;
+}
+
+.section5, .section6 {
+  padding: 50px 0;
+  margin: 100px 0;
+  background-color: #341a79;
+}
+
+.section5 .restaurants1, .section6 .restaurants1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.section5 .bttns, .section6 .bttns {
+  position: absolute;
+}
+
+.section5 .bttns .btn1, .section6 .bttns .btn1 {
+  width: 50px;
+  height: 50px;
+  background-color: #7643ea;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none;
+}
+
+.section5 .bttns .btn2, .section6 .bttns .btn2 {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none;
+}
+
+.section6 {
+  background-image: url(/styles/images/section6img/backgroundimg.webp);
+  background-repeat: repeat;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section6 .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section6 .photo .sec6img {
+  width: 150px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: bor;
+          box-sizing: bor;
+}
+
+.section6 .photo .concert {
+  margin: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section6 .photo .concert .citydata1 {
+  margin: 0;
+  padding: 0;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec {
+  padding: 0;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec .bttns {
+  position: absolute;
+  margin: 0;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec .bttns .btn1 {
+  width: 50px;
+  height: 50px;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec .bttns .btn2 {
+  width: 50px;
+  height: 50px;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec .restinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff !important;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec .restinfo .bodycard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec .restinfo .bodycard p.concertloc {
+  color: #7643ea;
+  font-weight: bolder;
+}
+
+.section6 .photo .concert .citydata1 .bttnsec .restinfo .bodycard .textcomment {
+  color: #f4f6f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section7 {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section7 .lastmotherdiv {
+  width: 100%;
+  padding: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section7 .lastmotherdiv .lastimg {
+  margin: 20px;
+}
+
+.section8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 30px;
+  border-top: 1px solid #C9CCD5;
+}
+
+.section8 .links1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section8 .links1 .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section8 .links1 .links .icon {
+  margin: 10px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,678 @@
+$maincolor:#7643ea;
+
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    border-bottom:1px solid whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+
+    .divcont{
+ 
+        margin: 40px;
+        .navbar-brand {
+            margin: 0 100px 0 0;
+        }
+        .toggleicon {
+            
+            border: 2px solid #fff;
+            color: #fff;
+            .toggler-icon{
+               color: #fff;
+
+               .menuimg{
+                   color: white;
+                   width: 100%;
+
+               }
+            }
+
+        }
+
+        .collapse {
+            
+            ul.navbar-nav{
+                li.nav-item {
+                    margin: 0 20px;
+                    a.nav-link {
+                        color: white;
+                        font-size: 16px;
+                        font-weight: bolder;
+                        &:hover{
+                            color: $maincolor;                        
+                        }
+
+                        .dropdown{
+                            background-color: $maincolor;
+                            
+                            .dropdown-item{
+                                    &:hover{
+                                        background-color: $maincolor;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .form-inline{
+       display: flex;
+       flex-direction: row;
+       color: white !important;
+      font-weight: bolder;
+      align-items: center;
+
+              .fa-search{
+                  color:white;             
+              }
+              .formstyle{
+                color:white;
+                text-decoration: none;
+                margin: 0 20px;
+              }
+              .btn{
+                background-color: $maincolor !important;
+                border: none;
+                margin-left: 20px;
+                width: 180px;
+                height: 52px;
+                color: white;
+                font-weight: bold;
+              }        
+    }
+}
+}
+
+.section1 {
+    width: 100%;
+    background-image: url(/styles/images/section1.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 120px;
+
+    
+    .social{ 
+        position: absolute; 
+        transform: rotate(90deg);
+        margin-right: 1500px;
+        margin-top: 500px;
+        display:flex;
+        display: flex;
+        align-items: center;
+
+    .socialpoint {
+        width: 250px;
+        height: 20px;
+        color: white;
+        font-size: 18px;
+        font-weight: bolder;
+
+    } 
+
+    .simpleline{
+        width: 100px;
+        color: #fff;
+        font-weight: bolder;   
+        display: flex;
+        align-items: center;                
+ }
+
+    .sociallinks{
+        .linkers{
+            display: flex;
+            align-items: space-between;
+            align-items: flex-start;
+            
+    .icon{
+        transform:rotate(-90deg);
+        margin: 20px;
+        color: white;
+
+    }
+}}}
+
+    
+
+
+        .infosec{
+
+            display: flex;
+            width: 65%;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            flex-direction: flex-end;
+
+                .titleh1{
+                    width: 100%;
+                    font-size: 72px;
+                    color: white;
+                    font-family: "Open Sans", sans-serif;
+                    padding-top: 100px;
+                    padding-bottom: 30px;
+                }
+                .infocomment{
+                    display: flex;
+                   flex-wrap: wrap;
+                   padding-bottom: 50px;
+                }
+
+                .subtitleh4{
+                    color: white;
+                }
+
+                form.select{
+                    .topbutton{
+                        .places, .events{
+                            background-color: $maincolor;
+                            margin: 0;
+                            border: none;
+                            min-width: 100px;
+                            height: 44px;
+                            line-height: 44px;
+                            padding-bottom: 30px;
+                            text-align: center;
+                            color:white;
+                            font-weight: bold;
+                         
+                            
+                        }
+                        .events{
+                            background-color: $maincolor;
+                            margin: 0%;
+                            border: none;
+                        }
+                     }
+                .inputsec{
+                    background-color: $maincolor;
+                    opacity: 0.8;
+                    display: flex;
+                    flex-wrap: wrap;
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 50px;
+                    justify-content: space-between;
+
+            
+            }
+    
+                   
+                    }
+
+                .lookingfor{
+                font-size: 18px; 
+                color: white;
+                font-weight: bold;
+                width: 100%;
+                display: flex;
+                
+                }
+
+                
+                .destination, .categories, .range{
+                    height: 52px;
+                    border-radius: 0px;
+                    padding: 0px 80px 0px 40px;
+                    color: rgb(114, 114, 140);
+                    font-size: 12px;
+                    font-weight: 600;
+                    border: none;
+                    margin-right: 10px;
+                }
+                .searchbtn{
+                    .fa-seatch1{
+                    
+                    }
+                    .search1{
+                        width: 180px;
+                         height: 52px;
+                         background-color: $maincolor;
+                         color:white;
+                         font-weight: bold;
+                         border-color: $maincolor;
+                    }
+                }
+            }
+}
+
+.catalog{
+    display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: center;
+        margin-top: -100px;
+
+    .catalog1{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+       
+    
+    .box{
+        padding: 30px 45px;
+        background-color:$maincolor ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:15px;
+        color:white;
+        font-weight: bold;
+        justify-content: space-evenly;
+        box-sizing: border-box;
+        
+    }
+}
+}
+
+.sec1comment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+
+    .sec11comment{
+        width: 70%;
+    }
+        .headcomment{
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+        
+    .dornecomment{
+        color: $maincolor;
+        width: 100%;
+    }
+
+
+    p.minicomment{
+font-size: 18px;
+width: 60%;
+display: flex;
+text-align: center;
+    }
+
+}
+}
+
+.section3 {
+    
+    background-image:linear-gradient(to bottom, rgba(10, 10, 30, 0.87)), url(/styles/images/section3img/section3.webp);
+    background-size: cover;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+    height: 100vh;
+  
+
+    .newyork, .barcelona, .paris {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 30px;
+                align-content: flex-start;
+                
+    }
+            .newyork{
+                background-image:url(/styles/images/section3img/newyork.webp);
+                background-size: cover;
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                
+            }
+
+            .locations{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                box-sizing: border-box;
+                flex-direction: column; 
+               margin: 0 10px;
+                height: 100%;
+                           
+          
+            .barcelona{
+                background-image:url(/styles/images/section3img/barcelona.webp);
+                background-size: cover;
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+           
+               
+            }
+
+            .paris{
+                background-image:url(/styles/images/section3img/paris.webp);
+                background-size: cover;
+                // width:540px;
+                // height:200px;
+                display: flex;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+            }
+        }
+.city, .amount, .add{
+    color: white;
+    font-weight:bold;
+            border: none;
+}
+
+        .city{
+            background-color: $maincolor;
+            width: 180px;
+            height: 70px;
+        }
+        .amount{
+            background-color: #2a2a2a;
+            width: 190px;
+            height: 70px;
+        }
+
+        .addlocation{
+            width: 100%;
+
+        .add{
+            background-color: #30c0a3;
+            height: 70px;
+            width: 70px;
+            font-size: 25px;
+        }
+        }
+        }
+
+        .section4, .section5, .section6 {
+         
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin: 100px 0;
+
+            .destinations, .restaurants1{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: 100px;
+            }
+
+            .destinations{
+                text-align: center;
+            }
+
+            .cardsec{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                border: none;
+                
+
+            .citydata, .citydata1 {
+                display: flex;
+                box-sizing: border-box;
+                flex-direction: column;
+                border: none;
+                margin: 15px 0;
+                
+                
+                &:hover .cardmainsec{
+                    background-color: $maincolor;
+                    color: white;
+                }
+
+                &:hover .btn2{
+                    background-color: #20c997;
+                }
+                &:hover .card-text {
+                    color: white !important;
+                }
+
+                &:hover .cityheart{
+                    color: white;
+                }
+
+                &:hover .restinfo{
+                    background-color: $maincolor;
+                }
+
+                &:hover .concertloc{
+                    color: #fff;
+                }
+                &:hover .textcomment{
+                    color: white !important;
+                }
+
+                &:hover .concertstyle{
+                    color: white;
+                }
+
+                .btn {
+                    width: 160px;
+                    background: #7643ea;
+                    background-image: -webkit-linear-gradient(top, #7643ea, #7643ea);
+                    background-image: -moz-linear-gradient(top, #7643ea, #7643ea);
+                    background-image: -ms-linear-gradient(top, #7643ea, #7643ea);
+                    background-image: -o-linear-gradient(top, #7643ea, #7643ea);
+                    background-image: linear-gradient(to bottom, #7643ea, #7643ea);
+                    -webkit-border-radius: 3;
+                    -moz-border-radius: 3;
+                    border-radius: 3px;
+                    font-family: Arial;
+                    color: #ffffff;
+                    font-size: 14px;
+                    padding: 10px 20px 10px 20px;
+                    margin: 20px;
+                    border: solid #7643ea 0px;
+                    text-decoration: none;
+                    position: absolute;
+
+                  }
+                  
+        
+                .cardmainsec{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    box-sizing: border-box;
+                    background-color: #f4f6f8;
+                    padding: 30px;
+
+                    .card-text{
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+               
+                .cityinfo{
+                width: 316px;
+                height: 358px; 
+                }
+
+                .cityloc{
+                    width: 100%;
+                    padding: 40px 30px;
+                    background-color: #f4f6f8;
+                    z-index: 1;
+                    display: flex;
+                    box-sizing: border-box;
+                    justify-content: space-between;
+                }
+
+                .cityheart {
+                    color: $maincolor;
+                    font-size: 30px;
+
+                }
+            }
+        }
+    }
+        }   
+
+    .section5, .section6{
+        padding: 50px 0;
+        margin: 100px 0;
+        background-color: #341a79;
+
+        .restaurants1 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            color: #fff;
+        }
+
+.bttns{
+    position: absolute;
+
+
+.btn1{
+    width: 50px;
+    height: 50px;
+    background-color: $maincolor;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+}
+
+.btn2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;  
+}
+}
+    }
+
+    .section6 {
+background-image: url(/styles/images/section6img/backgroundimg.webp);
+background-repeat: repeat;
+align-content: center;
+display: flex;
+justify-content: space-around;
+
+.photo{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+
+    
+
+        .sec6img{
+            width: 150px;
+            height: 150px;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: bor;
+        }
+
+.concert{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+   
+   
+    .citydata1{
+        margin: 0;
+        padding: 0;
+        .bttnsec{
+            padding: 0;
+            .bttns{
+                position: absolute;
+                margin: 0;
+            
+            .btn1{
+                width: 50px;
+                height: 50px;
+            }
+            
+            .btn2{
+                width: 50px;
+                height: 50px;
+            }
+       
+        }
+        .restinfo {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: #fff !important;
+
+            .bodycard{
+                display: flex;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+
+                    p.concertloc{
+                    color:$maincolor;
+                    font-weight: bolder;
+                    }
+
+                  .textcomment{
+                   color: #f4f6f8;
+                   display: flex;
+                   flex-wrap: wrap;
+                  }
+            }
+        }
+}
+}
+}} 
+}
+
+.section7 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    .lastmotherdiv{
+        width: 100%;
+     padding: 70px;
+     display: flex;
+     justify-content: space-around;
+
+    .lastimg{
+    margin: 20px;
+    }
+}
+
+}
+
+.section8{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    border-top: 1px solid #C9CCD5;
+
+    .links1 {
+        display: flex;
+        justify-content: space-between;
+
+        .links{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon{
+                margin:10px;
+            }
+        }
+    }
+}
