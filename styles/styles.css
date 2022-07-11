@@ -91,7 +91,7 @@
 
 .section1 {
   width: 100%;
-  background-image: url("styles/images/section1.webp");
+  background-image: url("https://images.unsplash.com/photo-1506606401543-2e73709cebb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
